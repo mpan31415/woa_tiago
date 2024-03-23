@@ -18,7 +18,7 @@ git clone --recurse-submodules https://github.com/mpan31415/woa_tiago.git
 ### 3. Installing the required packages from apt
 ```shell script
 sudo apt-get update
-sudo apt-get install libportaudio2 python3-pip net-tools cmatrix
+sudo apt-get install libportaudio2 python3-pip net-tools
 ```
 
 ### 4. Install requirements for YOLOv8 (Ultralytics) forked repo
