@@ -12,7 +12,7 @@ mkdir -p ~/tiago_ws/src
 ### 2. Clone the Git repository
 ```shell script
 cd ~/tiago_ws/src/
-git clone --recurse-submodules https://github.com/yzhang2332/woa_tiago.git
+git clone --recurse-submodules https://github.com/mpan31415/woa_tiago.git
 ```
 
 ### 3. Installing the required packages from apt
