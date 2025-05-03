@@ -1,6 +1,17 @@
-# TIAGo - Full Setup for HRI Competition
+# OfficeMate: Pilot Evaluation of an Office Assistant Robot
 
-This is the repository for The University of Melbourne's ("Wizards of Aus") entry into the [Office Assistant Robot Competition](https://hri2024c.web.app/hri2014rc2.html) at the [2024 HRI Conference](https://humanrobotinteraction.org/2024/) held in Boulder, Colorado. The robotic platform used in the competition is the [TIAGo mobile manipulator](https://pal-robotics.com/robots/tiago/) from PAL robotics. 
+This is the repository for The University of Melbourne's ("Wizards of Aus") **winning entry** into the [Office Assistant Robot Competition](https://hri2024c.web.app/hri2014rc2.html) at HRI'24 held in Boulder, Colorado. The robotic platform used in the competition is the [TIAGo mobile manipulator](https://pal-robotics.com/robots/tiago/) from PAL robotics. Full installation and setup instructions are detailed below.
+
+A real-world evaluation of the system resulted in a publication, **"OfficeMate: Pilot Evaluation of an Office Assistant Robot"**, which was accepted at HRI'25 in Melbourne. The paper can be found [here](https://dl.acm.org/doi/10.5555/3721488.3721713). If you find our work interesting or useful, please consider citing it:
+```
+@inproceedings{pan2025officemate,
+author = {Pan, Jiahe and Sch\"{o}mbs, Sarah and Zhang, Yan and Tabatabaei, Ramtin and Bilal, Muhammad and Johal, Wafa},
+title = {OfficeMate: Pilot Evaluation of an Office Assistant Robot},
+booktitle = {Proceedings of the 2025 ACM/IEEE International Conference on Human-Robot Interaction},
+pages = {1529–1533},
+year = {2025}
+}
+```
 
 ## Installation
 
@@ -56,7 +67,7 @@ Paste your API into the file, in the format of:
 api_key: "YOUR_API_KEY"
 ```
 
-### 6. Building the packages
+### 7. Building the packages
 ```shell script
 cd ~/tiago_ws/
 catkin build detection_msgs tiago_follow_person tiago_gpt4 tiago_nav ultralytics_ros
